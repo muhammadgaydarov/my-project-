@@ -116,3 +116,152 @@ a {
 .phone p:last-of-type {
     font-size: 11px;
 }
+
+.section-top {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+}
+
+
+.section-top-block {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    background-color: #fff;
+    width: 490px;
+    height: 300px;
+    -webkit-box-shadow: 4px 4px 8px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 5px rgba(34, 60, 80, 0.2);
+     box-shadow: 4px 4px 8px 5px rgba(34, 60, 80, 0.2);
+}
+
+
+.section-top-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50px;
+}
+
+
+.section-top-text h2 {
+    color: #041E50;
+    margin-bottom: 15px;
+}
+
+.section-top-text p {
+    color: #072865;
+    margin-bottom: 15px;
+}
+
+.section-top-text button {
+    color: #fff;
+    background-color: #FF5252;
+    border: 1px solid #FF5252;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-top-text button:hover {
+    transition: all .3s ease;
+	transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.catalog-text {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    color: #072865;
+}
+
+
+.catalog-item {
+    position: relative;
+    padding: 0 46px;
+    width: 260px;
+    height: 450px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.catalog-code {
+    font-size: 12px;
+    opacity: .8;
+    margin-top: 10px;
+}
+
+
+.catalog-name {
+    margin-top: 10px;
+    color: #072865;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.catalog-reviews {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.catalog-photo {
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.catalog-price {
+    color: #fe2d2d;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.catalog-but {
+    margin-top: 20px;
+}
+
+.catalog-button {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fe2d2d;
+    padding: 10px;
+    background-color: #fe2d2d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.catalog-button:hover {
+    transition: all .3s ease;
+	transform: scale(0.9);
+    cursor: pointer;
+}
+
+.catalog-save {
+    color: #072865;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.catalog-item:nth-child(2) {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.catalog-item:nth-child(5) {
+	margin-left: 20px;
+	margin-right: 20px;
+}
